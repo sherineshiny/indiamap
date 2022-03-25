@@ -4,7 +4,7 @@
   display: inline-block;
   border-bottom: 1px dotted black;
 }
-.tooltip .tooltiptext {
+.tooltip .chennai {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -22,7 +22,113 @@
   border-style: solid;
   border-color: transparent black transparent transparent;
   }
-.tooltip:hover .tooltiptext {
+.tooltip:hover .chennai {
   visibility: visible;
 }
+  .tooltip .trivandrum {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ .tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+  }
+.tooltip:hover .trivandrum {
+  visibility: visible;
+}
+    .tooltip .mumbai {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ .tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+  }
+.tooltip:hover .mumbai {
+  visibility: visible;
+}
+      .tooltip .jaipur {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ .tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+  }
+.tooltip:hover .jaipur {
+  visibility: visible;
+}
+        .tooltip .lucknow {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ .tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+  }
+.tooltip:hover .lucknow {
+  visibility: visible;
+}
+          .tooltip .ladakh {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ .tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+  }
+.tooltip:hover .ladakh {
+  visibility: visible;
+}
+  
 </style>
