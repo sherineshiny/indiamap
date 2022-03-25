@@ -5,4 +5,9 @@ main.children[0] main.addEventListener('mouseover',function() {
 tooltip.innerHTML = messageText;
 })
 }
-getMyImageToolTip('.tooltiptext');
+getMyImageToolTip('.chennai');
+getMyImageToolTip('.trivandrum');
+getMyImageToolTip('.mumbai');
+getMyImageToolTip('.jaipur');
+getMyImageToolTip('.lucknow');
+getMyImageToolTip('.ladakh');
